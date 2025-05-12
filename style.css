@@ -1,0 +1,222 @@
+.backdrop-blur-lg {
+    backdrop-filter: blur(8px);
+}
+
+.logo img {
+    height: 60px;
+}
+
+.hero {
+    display: flex;
+    align-items: center; /* ⬅️ ini yang penting biar teks dan gambar rata tengah */
+    justify-content: space-between;
+    padding: 80px;
+    background: linear-gradient(135deg, #fcb6e1, #fc63c4);
+  }
+  
+  .hero-text {
+    flex: 1;
+  }
+  
+  .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 6px solid hotpink;
+    object-fit: cover;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about {
+    background: linear-gradient(to right, #fcb6e1, #fcd1ec);
+    padding: 80px 40px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .about-image img {
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .about-text {
+    max-width: 600px;
+  }
+  
+  .about-text h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #b01264;
+    margin-bottom: 20px;
+  }
+  
+  .about-intro, .about-desc {
+    background-color: #ffeaf6;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .name {
+    font-weight: bold;
+    color: #e60073;
+  }
+  
+  .social-media h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .social-media .icons a img {
+    width: 40px;
+    margin-right: 15px;
+    transition: transform 0.3s;
+  }
+  
+  .social-media .icons a img:hover {
+    transform: scale(1.1);
+  }
+
+  .projects {
+    background: linear-gradient(to right, #eabcd9);
+    padding: 60px 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .projects h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  .projects h2 span {
+    color: #b01264;
+  }
+  
+  .project-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #ffeaf6;
+    border-radius: 20px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .card-body .category {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .card-body h3 {
+    font-size: 20px;
+    color: #b01264;
+    margin: 8px 0;
+  }
+  
+  .card-body .desc {
+    font-size: 14px;
+    color: #5e357a;
+    margin-bottom: 10px;
+  }
+  
+  .github-link img {
+    width: 24px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    transition: transform 0.3s;
+  }
+  
+  .github-link img:hover {
+    transform: scale(1.1);
+  }
+  
+  .footer {
+    background: linear-gradient(90deg, #deb6ce, #e67abe);
+    color: white;
+    padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    flex: 1 1 250px;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p, .footer-section ul, .footer-section a {
+    color: #f1f1f1;
+    font-size: 1em;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons a {
+    font-size: 24px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    padding-top: 15px;
+    font-size: 0.9em;
+  }
