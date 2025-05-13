@@ -2,10 +2,6 @@
   backdrop-filter: blur(50px);
 }
 
-.backdrop-blur-lg {
-    backdrop-filter: blur(8px);
-}
-
 .logo img {
     height: 60px;
 }
